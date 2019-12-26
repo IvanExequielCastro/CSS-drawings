@@ -1,0 +1,373 @@
+body {
+    background-color: lightgrey;
+}
+/* GRID */
+.grilla {
+    display: grid;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+/* START PALTA */
+.palta {
+    background-color: #c2f858;
+
+    display: grid;
+    position: relative;
+
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+
+    grid-column: 2;
+    grid-row: 1;
+
+    width: 182px;
+    height: 230px;
+
+    border-radius: 50% 50% 50% 50% / 70% 70% 40% 40%;
+    border: 5px solid #3fe404;
+}
+.brilloPalta {
+    background-color: whitesmoke;
+    opacity: 40%;
+
+    position: absolute;
+    left: 25%;
+    top: 15%;
+
+    width: 35px;
+    height: 45px;
+
+    border-radius: 50%;
+
+    transform: skew(-20deg);
+}
+.carozoExterior {
+    background-color: #915711;
+
+    position: absolute;
+    left: 25%;
+    top: 50%;
+
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+}
+.carozoInterior{
+    background-color: #c48833;
+
+    position: absolute;
+    left: 3%;
+    top: 2%;
+
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+.brilloCarozo {
+    background-color: whitesmoke;
+    opacity: 40%;
+
+    position: absolute;
+    left: 15%;
+    top: 15%;
+
+    width: 35px;
+    height: 35px;
+
+    border-radius: 50%;
+}
+/* END PALTA */
+/* START BARCO */
+.barco {
+    display: grid;
+    position: relative;
+    
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+
+    grid-column: 2;
+    grid-row: 2;
+
+    height: 0;
+    width: 0;
+
+    border-style: solid;
+    border-color: transparent transparent #fafc60 transparent;
+    border-width: 0px 100px 200px 100px;
+}
+.vela {
+    position: absolute;
+
+    left: -100px;
+    top: 0px;
+
+    height: 0;
+    width: 0;
+
+    border-style: solid;
+    border-color: transparent transparent #feffb1 transparent;
+    border-width: 0px 0px 200px 100px;
+}
+.pliegoIzq {
+    position: absolute;
+
+    left: -200px;
+    top: 100px;
+
+    height: 0;
+    width: 0;
+
+    border-style: solid;
+    border-color: #fafcab transparent transparent transparent;
+    border-width: 100px 100px 0px 100px;
+}
+.pliegoCentral {
+    position: absolute;
+
+    left: -100px;
+    top: 100px;
+
+    height: 0;
+    width: 0;
+
+    border-style: solid;
+    border-color: transparent transparent #f9fc60af transparent;
+    border-width: 0px 100px 100px 100px;
+}
+.pliegoDer {
+    position: absolute;
+
+    left: 0px;
+    top: 100px;
+
+    height: 0;
+    width: 0;
+
+    border-style: solid;
+    border-color: #fafcab transparent transparent transparent;
+    border-width: 100px 100px 0px 100px;
+}
+.agua {
+    background-color: skyblue;
+    opacity: 60%;
+    position: absolute;
+
+    left: -200px;
+    top: 190px;
+
+    height: 25px;
+    width: 400px;
+
+    border-radius:40px 40px;
+}
+/* END BARCO */
+/* START FRUTILLA */
+.frutilla {
+    background-color: #db0000;
+
+    display: grid;
+    position: relative;
+
+    margin-top: 30%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+
+    grid-column: 2;
+    grid-row: 3;
+
+    width: 182px;
+    height: 230px;
+
+    border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+
+    transform: rotate(-45deg);
+}
+.hojas {
+    position: absolute;
+
+    width: 250px;
+    height: 150px;
+
+    top: -5px;
+}
+.hojaIzq {
+    background-color: #52ee2b;
+
+    position: absolute;
+
+    left: -50px;
+    top: -30px;
+
+    height: 50px;
+    width: 150px;
+
+    border-radius: 0 50% / 0 100%;
+}
+.hojaDer {
+    background-color: #37af19;
+
+    position: absolute;
+
+    left: 90px;
+    top: -30px;
+
+    height: 50px;
+    width: 150px;
+
+    border-radius: 90% 10% / 100% 0%;
+}
+.semillas {
+    position: absolute;
+
+    width: 200px;
+    height: 200px;
+
+    left: -10px;
+    top: 25px;
+}
+/* PRIMER FILA  */
+.semilla1 {
+    background-color: black;
+
+    position: absolute;
+
+    width: 15px;
+    height: 30px;
+
+    left: 25px;
+    top: 25px;
+
+    border-radius: 50%;
+}
+.semilla2 {
+    background-color: black;
+
+    position: absolute;
+
+    width: 15px;
+    height: 30px;
+
+    left: 60px;
+    top: 30px;
+
+    border-radius: 50%;
+}
+.semilla3 {
+    background-color: black;
+
+    position: absolute;
+
+    width: 15px;
+    height: 30px;
+
+    left: 95px;
+    top: 35px;
+
+    border-radius: 50%;
+}
+.semilla4 {
+    background-color: black;
+
+    position: absolute;
+
+    width: 15px;
+    height: 30px;
+
+    left: 130px;
+    top: 30px;
+
+    border-radius: 50%;
+}
+.semilla5 {
+    background-color: black;
+
+    position: absolute;
+
+    width: 15px;
+    height: 30px;
+
+    left: 165px;
+    top: 25px;
+
+    border-radius: 50%;
+}
+/* SEGUNDA FILA */
+.semilla6 {
+    background-color: black;
+
+    position: absolute;
+
+    width: 15px;
+    height: 30px;
+
+    left: 45px;
+    top: 95px;
+
+    border-radius: 50%;
+}
+.semilla7 {
+    background-color: black;
+
+    position: absolute;
+
+    width: 15px;
+    height: 30px;
+
+    left: 90px;
+    top: 95px;
+
+    border-radius: 50%;
+}
+.semilla8 {
+    background-color: black;
+
+    position: absolute;
+
+    width: 15px;
+    height: 30px;
+
+    left: 135px;
+    top: 95px;
+
+    border-radius: 50%;
+}
+/* TERCER FILA */
+.semilla9 {
+    background-color: black;
+
+    position: absolute;
+
+    width: 15px;
+    height: 30px;
+
+    left: 90px;
+    top: 155px;
+
+    border-radius: 50%;
+}
+.brilloFrutilla {
+    background-color: whitesmoke;
+    opacity: 40%;
+
+    position: absolute;
+    left: 15%;
+    top: 15%;
+
+    width: 35px;
+    height: 45px;
+
+    border-radius: 50%;
+
+    transform: skew(-30deg);
+}
+/* END FRUTILLA */
